@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookskys</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Popins Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="bookcontainer">
+        <div class="books">
+            <h2>Rich Dad and Poor Dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni saepe totam, nihil, reprehenderit eligendi quidem molestiae ducimus fugit impedit eaque assumenda recusandae veniam blanditiis magnam, omnis reiciendis quam ad. Suscipit.</p>
+            <button class=" btn-clear" onclick="erase(event)">Delete</button>
+        </div>
+    </div>
+    <div class="overlay" id="overlay-boxs"></div>
+    <div class="popboxs" id="pop-contain">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="Booktitle" id="title-input">
+            <input type="text" placeholder="BookAuthor" id="author-input">
+            <textarea placeholder="short-description" id="book-details-input"></textarea>
+            <button id="add-bookagain">Add</button>
+            <button id="cancel-book">Cancel</button>
+        </form>
+    </div>
+    <button class="add-button">+</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>

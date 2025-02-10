@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'popins',sans-serif;
+}
+
+.navbar{
+    background-color: #fd6569;
+    padding: 10px;
+
+}
+
+.bookcontainer{
+    padding: 10px;
+}
+
+.books{
+    text-align: left;
+    padding: 15px;
+    width: 25%;
+    color: azure;
+    background-color: black;
+    border-radius: 15px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.books h2{
+    font-family: 'popins';
+    font-weight: bold;
+    color: #fd6569;
+    margin-bottom: 5px;
+}
+
+.books h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    font-size: 14px;
+}
+p{
+    font-family: 'popins';
+}
+
+.btn-clear{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 10px;
+    margin: 10px 5px 0;
+    width: 20%;
+    padding: 5px 5px;
+    border: none;
+    margin-top:15px;
+}
+
+.add-button{
+    background-color: #fd6569;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px; 
+    font-size: 40px;
+    border: none;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+}
+
+.overlay{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
+    display:none;
+}
+
+.popboxs{
+    background-color: #fd6569;
+    width: 40%;
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+
+.popboxs input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.popboxs input::placeholder{
+    color:black;
+}
+
+.popboxs textarea::placeholder{
+    color: black;
+}
+
+.popboxs button{
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;    
+    width: 20%;
+    color: white;
+    border: none;   
+}
+
+.popboxs input:focus{
+    outline: none;
+}
+
+.popboxs textarea:focus{
+    outline: none;
+}
+
